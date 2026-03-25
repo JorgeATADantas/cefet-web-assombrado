@@ -187,6 +187,26 @@ a:active {
   text-shadow: 1px 1px black;
 }
 
+
+.tag-1:active, 
+.tag-2:active,
+.tag-3:active {
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 2px 4px;
+  margin: 2px;
+  background-color: orange;
+  color: white;
+  text-shadow: 1px 1px black;
+  top:-2px;
+  left:-2px;
+}
+
+
+
+
+
 .tag-2 {
   font-size: 125%;
 }
