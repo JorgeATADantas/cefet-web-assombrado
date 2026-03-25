@@ -29,16 +29,18 @@
     <main id="conteudo-principal" class="desaparecido">
       <!-- opa, <section> já é um elemento semântico. Dica: podemos
            dividir a página em 3 seções, e esta é uma delas -->
-      <section id="tags">
+      <nav id="tags">
         <h1>Nuvem de <em>tags</em></h1>
-        <article class="tag-3">UFO</article>
-        <article class="tag-1">OVNI</article>
-        <article class="tag-2">Avistamentos</article>
-        <article class="tag-1">Contato de primeiro grau</article>
-        <article class="tag-2">Assombrações</article>
-        <sparticlean class="tag-3">Local mal-assombrado</article>
-        <article class="tag-1">Saci</article>
-      </section>
+        <ul>
+          <li class="tag-3">UFO</li>
+          <li class="tag-1">OVNI</li>
+          <li class="tag-2">Avistamentos</li>
+          <li class="tag-1">Contato de primeiro grau</li>
+          <li class="tag-2">Assombrações</li>
+          <li class="tag-3">Local mal-assombrado</li>
+          <li class="tag-1">Saci</li>
+        </ul>
+        </nav>
 
       <section id="posts-principais">
         <h1>Principais Postagens</h1>
@@ -135,7 +137,7 @@
 
     <script>
       // faz o vídeo desaparecer de leve assim que terminar
-      const TEMPO = 3000;  // 3s, duração do vídeo
+      const TEMPO = 3000;  // s, duração do vídeo
       setTimeout(() => {
         // faz o vídeo desaparecer colocando a classe .desaparecido
         document.querySelector('.backdrop').classList.add('desaparecido');

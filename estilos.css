@@ -60,10 +60,23 @@ a:active {
 
 #menu-de-navegacao ul {
   margin-bottom: 0;
+
+  display: flex;
+  justify-content: space-around;
   list-style-type: none;
-  display: inline-block;
-  padding: 1% 0%;
+  padding-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
+#menu-de-navegacao ul > li {
+  flex: 1; /* crescer com peso 1 */
+  
+  /* espacinho e centralização */
+  margin-right: 4px;
+  text-align: center;
+}
+
 
 
 
@@ -94,8 +107,11 @@ a:active {
   display: inline-block;
 }
 
+
 #posts-principais .post .titulo {
   text-shadow: 1px 1px black;
+  top: 20px;
+  opacity: 0;
 }
 
 #posts-principais .post img {
