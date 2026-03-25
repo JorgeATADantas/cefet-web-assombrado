@@ -151,6 +151,7 @@ a:active {
   box-shadow: -4px 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 #tags h1 {
@@ -262,4 +263,13 @@ a:active {
   color: black;
   border-color: currentColor;
   box-shadow: none;
+}
+
+.novidade::before {
+  content: "Novidade!";
+  display: inline-block;
+  background: green;
+  border-radius: 15%;
+  border-style:  10px solid;
+  border-color: green;
 }
