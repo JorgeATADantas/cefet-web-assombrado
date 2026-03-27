@@ -320,3 +320,30 @@ a:active {
   border-style:  10px solid;
   border-color: green;
 }
+
+
+.boo {
+  position: absolute;
+  opacity: 0.15;
+  width: 40px;
+}
+
+.boo:hover {
+  opacity: 1;
+}
+
+.boo1 {
+  top: 200px;
+  left: 50px;
+}
+
+.boo2 {
+  top: 600px;
+  right: 80px;
+}
+
+.boo3 {
+  top: 500px;
+  left: 400px;
+  transform: scaleX(-1);
+}
